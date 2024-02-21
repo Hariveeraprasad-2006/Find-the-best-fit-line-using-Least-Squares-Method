@@ -35,10 +35,10 @@ for i in range(len(x)):
     denom=denom+(x[i]-x_mean)**2
 m=numi/denom
 c=y_mean-m*x_mean
-print(m)
-print(c)
+print("THE SLOPE OF THE LINE IS",m)
+print("THE Y INTERCEPT IS ",c)
 y_pred=m*x+c
-print(y_pred)
+print("THE PREDICTED VALUE IS",y_pred)
 plt.scatter(x,y,color="red")
 plt.plot(x,y_pred,color="black")
 plt.show()
@@ -46,7 +46,7 @@ plt.show()
 ```
 
 ## Output:
-![image](https://github.com/Hariveeraprasad-2006/Find-the-best-fit-line-using-Least-Squares-Method/assets/145049988/974f6051-1f00-4abc-9dc6-69817c44c4ac)
+![image](https://github.com/Hariveeraprasad-2006/Find-the-best-fit-line-using-Least-Squares-Method/assets/145049988/43e714aa-f28b-4b7a-b5ed-1aa419c1a7c3)
 
 
 
